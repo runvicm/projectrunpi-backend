@@ -1,0 +1,35 @@
+# Laravel
+*.log
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.phpunit.cache
+/auth.json
+/bootstrap/cache
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+
+# Vite build output
+/node_modules
+/public/build
+/public/hot
+/public/manifest.json
+/public/fonts-manifest.dev.json
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Editors
+/.idea
+/.vscode
+/.cursor/
+/.nova
+/.zed
+/.codex
+.phpactor.json
