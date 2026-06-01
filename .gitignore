@@ -7,7 +7,6 @@
 .phpunit.result.cache
 /.phpunit.cache
 /auth.json
-/bootstrap/cache
 /public/storage
 /storage/*.key
 /storage/pail
@@ -32,4 +31,3 @@ ehthumbs.db
 /.nova
 /.zed
 /.codex
-.phpactor.json
