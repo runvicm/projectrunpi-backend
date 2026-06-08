@@ -7,11 +7,8 @@ use Illuminate\Http\Request;
 
 class ApiHomepageController extends BaseController
 {
-    public function devlog(Request $request)
+    public function devlog()
     {
-        if (!$request->ajax()) {
-            abort(404);
-        }
 
         $logs = Log::with('tags')
             ->where(['status' => 'published'])
